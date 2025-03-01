@@ -1,1 +1,1 @@
-# C-implementation-of-a-linked-list-with-sentinel-node
+# C implementation of a Linked List with Sentinel Node
