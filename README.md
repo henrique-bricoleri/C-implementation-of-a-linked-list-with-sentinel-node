@@ -47,9 +47,11 @@ Frees all the nodes and the sentinel node, and then frees the list itself.
 
 ### Main code:
 
-
+![main_file](linked_list/images/exemple1.png)
 
 ### Terminal Result:
+
+![output](linked_list/images/terminal1.png)
 
 ## Code Explanation
 
