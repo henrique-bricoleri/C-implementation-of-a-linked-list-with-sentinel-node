@@ -47,6 +47,8 @@ Frees all the nodes and the sentinel node, and then frees the list itself.
 
 ### Main code:
 
+
+
 ### Terminal Result:
 
 ## Code Explanation
