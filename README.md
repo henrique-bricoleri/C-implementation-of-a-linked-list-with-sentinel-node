@@ -6,8 +6,9 @@ The main goal of this implementation is to ensure that any kind of data can be p
 - [Introduction](#introduction)
 - [Features](#features)
 - [Functions](#functions)
+- [Example Usage](#example-usage)
 - [Code Explanation](#code-explanation)
-- [License](#license)
+- [Data Leak Precaution](#data-leak-precaution)
 
 ## Introduction
 
@@ -42,6 +43,12 @@ Removes the last node from the list and stores its data in `data_removed`. If th
 ### `destroy(List *l)`
 Frees all the nodes and the sentinel node, and then frees the list itself.
 
+## Exemple Usage
+
+### Main code:
+
+### Terminal Result:
+
 ## Code Explanation
 
 ### Sentinel Node
@@ -59,6 +66,4 @@ Each node in the list holds a pointer to the data, and data is copied into new n
 - **Empty List**: The sentinel node ensures that the list is never empty from a logical standpoint, and operations like insertion and deletion are simplified.
 - **Memory Leaks**: Memory is freed at each operation, and `destroy` ensures that all allocated memory is freed when the list is no longer needed.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+## Data Leak Precausion
