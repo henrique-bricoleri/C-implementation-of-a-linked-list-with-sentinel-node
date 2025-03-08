@@ -71,3 +71,10 @@ Each node in the list holds a pointer to the data, and data is copied into new n
 - **Memory Leaks**: Memory is freed at each operation, and `destroy` ensures that all allocated memory is freed when the list is no longer needed.
 
 ## Data Leak Precausion
+
+- The code was designed to prevent data leaks, using memory free to ensure good practices and reliability on the API, here is the result of the valgrind test for the example utilized before:
+
+![valgrind](linked_list/images/valgrind.png)
+
+# Thanks For Reading!!
+
